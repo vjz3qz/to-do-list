@@ -18,6 +18,10 @@ app.get("/", (req, res) => {
     res.render("list",{dayOfWeek:today.toLocaleDateString("en-US", options)});
 });
 
+app.post("/", (req,res) => {
+    console.log(req.body.newItem);
+});
+
 app.listen(3000, () => {
     console.log("server running on port 3000");
 });
