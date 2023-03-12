@@ -13,6 +13,7 @@ var items = [];
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
+app.use(express.static("public"));
 
 //initial get request
 app.get("/", (req, res) => {
