@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vjz3qz/ToDoList.git"
+    "url": "git+https://github.com/vjz3qz/to-do-list.git"
   },
   "author": "Varun Pasupuleti",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vjz3qz/ToDoList/issues"
+    "url": "https://github.com/vjz3qz/to-do-list/issues"
   },
-  "homepage": "https://github.com/vjz3qz/ToDoList#readme",
+  "homepage": "https://github.com/vjz3qz/to-do-list#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
     "ejs": "^3.1.8",
