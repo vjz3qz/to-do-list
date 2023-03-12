@@ -7,7 +7,7 @@ const ejs = require("ejs");
 const https = require("https");
 
 //global variable
-var items = ["eat","work"];
+var items = [];
 
 //server
 const app = express();
