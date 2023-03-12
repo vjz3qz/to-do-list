@@ -1,0 +1,19 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "To Do List with ejs template and later MongoDB integration. Uses node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjz3qz/ToDoList.git"
+  },
+  "author": "Varun Pasupuleti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjz3qz/ToDoList/issues"
+  },
+  "homepage": "https://github.com/vjz3qz/ToDoList#readme"
+}
