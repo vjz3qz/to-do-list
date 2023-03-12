@@ -11,8 +11,8 @@
     <body>
         <h1>It is <%= dayOfWeek %>.</h1> 
         <ul>
-            <% for(let x = 0; x<itemList.length; x++) { %>
-                <li>itemList[x]</li>
+            <% for(var i = 0; i<itemList.length; i++) { %>
+                <li><%= itemList[i] %></li>
             <% } %>
         </ul>
         <form action="/" method="post">

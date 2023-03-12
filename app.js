@@ -7,7 +7,7 @@ const ejs = require("ejs");
 const https = require("https");
 
 //global variable
-var items = [];
+var items = ["eat","work"];
 
 //server
 const app = express();
@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 
 //post request
 app.post("/", (req,res) => {
-    items.push(req.body.newItemtem)
+    items.push(req.body.newItem)
     res.redirect("/"); //redirects to get request with new item
 });
 
